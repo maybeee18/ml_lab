@@ -1,21 +1,15 @@
-<span style="color:red"><center><h1>DRAFT</h1></center></span>
+<center><h2>Communications for Analytics <br> University of San Francisco's MSDS 610 Fall 2019</h2></center>
 
-<center><h2>University of San Francisco's Machine Learning Laboratory <br>  MSDS 699 Fall 2019</h2></center>
+<center><img src="https://imgs.xkcd.com/comics/preferred_chat_system.png"  align="middle" style="width: 80%"/> </center>
 
-<center><img src="https://imgs.xkcd.com/comics/machine_learning.png" style="width: 40%"/></center>
-
-> "It's tough to make predictions, especially about the future."   
-> – Yogi Berra   
+> "The most important things are the hardest to say, because words diminish them."   
+> — Stephen King
 
 ----
 Course Description
 ----
 
-In this course, you'll create end-to-end solutions to machine learning problems with increasing complexity. This course will cover common applied techniques in both supervised and unsupervised machine learning, such as regression, classification, and clustering. 
-
-Algorithms will include Generalized Linear Models (GLM), k-Nearest Neighbors (k-NN), Naive Bayes, Decision Trees, Random Forests, and k-Means Clustering. Machine learning is about much more than the algorithms themselves. The methodology surrounding the algorithms is just as important as the algorithms. You'll learn to properly engineer features, evaluate model performance, and communicate the results to both technical and non-technical audiences.
-
-This course is a lab course associated with the MSDS Intro to Machine Learning (MSDS 621). MSDS 621 focuses on the implementation of machine learning algorithms. Whereas in this lab, you'll learn to use pre-existing implementations of these machine learning algorithms from Python's [scikit-learn](https://scikit-learn.org) library.  
+In this course, students will learn to apply essential business communication concepts. In particular, develop their ability to  speak and write in a business context. Students will learn how to create, organize, and deliver their message. They will deliver both planned and extemporaneous public presentations on topics related to data analysis, both individually and in groups. This course will emphasize the creation of presentation slides and other supporting materials, the correct presentation and organization of data analysis results, and listening to and critically evaluating presentations made by other people.
 
 ----
 Logistics
@@ -23,142 +17,80 @@ Logistics
 
 __Instructor:__ Brian Spiering   
 __Contact__: [Slack DM](https://msan-usf.slack.com/messages/DAMAXHTL5) (more preferred) | [bspiering@usfca.edu](mailto:bspiering@usfca.edu) (less preferred)  
-__Office hours__: Tuesdays & Thursdays 2:15-3:10 in 522 & By Appointment   
+__Office hours__: Mondays & Wednesday 12:30-1:00 in 522 & By Appointment   
 
-__Grader__: TBD     
-__Contact__: [Slack DM](https://msan-usf.slack.com/messages/TBD) | [TBD@usfca.edu](TBD@usfca.edu)  
+__Grader__: Nina Hua      
+__Contact__: [Slack DM](https://msan-usf.slack.com/messages/DCCNNNSR3) | [nhua2@usfca.edu](nhua2@usfca.edu)  
 __Office hours__: By appointment  
 
-__Website__: [github.com/brianspiering/tbd](https://github.com/brianspiering/tbd)    
-__Communication__: Slack [`#ml_lab_2019`](https://msan-usf.slack.com/messages/CNCN8CU9Y)  
+__Website__: [github.com/brianspiering/business-communication](https://github.com/brianspiering/business-communication)    
+__Communication__: Slack [`#biz_comm_2019`](https://msan-usf.slack.com/messages/CLTPR126L)  
 
 Prerequisites
 ----
 
-- Working knowledge of probability and statistics
-- Introductory knowledge of linear algebra (e.g., determinants and Singular Value Decomposition)
-- Intermediate level of Python (e.g., ability to create to classes)
-- No previous knowledge of machine learning required
+- Enrollment in the MSDS program.
 
 Learning Outcomes
 -----
 
 By the end of the course, you should be able to:     
-1. Apply fundamental machine learning models and methodology to solve real-world problems. 
-1. Write idiomatic Python code to model data. Primarily using the scikit-learn package. 
-1. Define common machine learning terms and identify applied examples.
-1. Explain common regression, classification and clustering algorithms.
-1. Recognize when to and _when not to_ apply machine learning algorithms.
-1. Build end-to-end machine learning models to an answer meaningful Data Science questions.
+
+1. Analyze situations and audiences to adapt your communication techniques to effectively deliver your message.
+2. Understand your own communication style and adapt to it to the current context.   
+3. Introduce yourself in a variety of professional settings.   
+4. Create a LinkedIn profile.   
+5. Write business emails for common scenarios.    
+6. Give a short, technical presentation.    
 
 -----
 Course Schedule and Topics (Tentative)
 -----
 
-Sections:
+### Sessions
 
-1. Tuesdays  at 3:15pm-5:05pm in Room 529 
-2. Thursdays at 3:15pm-5:05pm in Room 529    
+Format: Sections, days, times, and rooms <sup>§</sup>
+
+1. Mondays    at 10:00-11:55   in Room 451 
+2. Mondays    at   1:15-3:05   in Room 450    
+3. Wednesdays at 10:00-11:55   in Room 450    
+4. Wednesdays at   1:15-3:05   in Room 450   
+
+<sup>§  There will be a shuffle because two Monday sessions are missing. See schedule below.</sup>  
 
 You have been assigned a specific section for this course. You __must__ attend the section you have been assigned!
 
-Format: Number. Date (Section) | Date (Section)
+Format: Number. Date (Sections) | Date (Sections): Topic  
 
-1. 10/17 (2) | 10/22 (1)
-    - Machine learning modeling process
-    - Train-test split
-    - Modeling fitting in scikit-learn 
-    - Regression models
-    - Regression metrics    
-    - Continuous features
-
-2. 10/24 (2) | 10/29 (1)
-    - Cross-validation split
-    - Classification models
-    - Classification metrics
-    - Categorical features and 1-hot encoding 
-
-3. 10/31 (2) | 11/05 (1)
-    - Linear models
-    - Cross-validation techniques (Leave-one-out testing & k-fold)
-    - Hyperparameters tuning with grid search and random search
-    
-4. 11/07 (2) | 11/12 (1)
-    - Tree-based models
-    - Out-of-bag (OOB) error
-    - Feature engineering with normalization and standardization 
-    - Pipeline in scikit-learn
-    
-5. 11/14 (2) | 11/19 (1)
-    - Feature engineering:
-        - Date-based data
-        - Strings
-        - Dimension reduction
-    - Non-stationary data
-   
-6. 11/21 (2) | 11/26 (1)
-    - Unsupervised machine learning
-    - Clustering 
-
-7. 12/03 (1) | 12/06 (2)
-    - Final Presentations
-
-Topics Not Covered
------
-- Theory (no proofs 🙂)
-- Research (this is an applied course 🔨)
-- Implementing algorithms (covered in MSDS 621 🤔)
-- R programming language  (Python only 🐍)
-- Data acquisition (assume tabular data 📋)
-- Visualization (just basic plotting with matplotlib and Seaborn 📊)
-- Optimization (assume that we have decent solver 📉)
-- Productizing models (let the Data Engineers do that 👷)
-- Distributing models (let AMZN and GOOGL do that for you 📈)
-- Bayesian approach (I wish we could… 😫)
-- Anomaly Detection (not enough time to get strange 👽)
-- Recommender Systems (covered later in MSDS 630 ⌛)
-- Reinforcement Learning (we don't have time to play games 👾)
-- Ethics (not enough time to think about implications 🤔)
-- Algorithms
-    - Boosting
-    - Neural Networks / Deep Learning
-    - Graphical Models / Bayes Nets
-    - Linear Discriminant Analysis (LDA)
-    - Expectation–Maximization (EM)  
-    - Gaussian Mixture Models (GMM)
-    - Advanced clustering:
-        - DBSCAN 
-        - Hierarchical 
-        - Mean-Shift 
+1. 8/21 (3 & 4) | 8/26 (1 & 2): Welcome & How to Introduce Yourself 
+2. 8/28 (3 & 4) | 9/4  (1 & 2): How to LinkedIn 
+3. 9/9  (1 & 2) | 9/11 (3 & 4): How to Email
+4. 9/16 (1 & 2) | 9/18 (3 & 4): How to Interview
+5. 9/23 (1 & 2) | 9/25 (3 & 4): How to Present 
+6. 9/30 (1 & 2) | 10/2 (3 & 4): Student Presentations, Part I
+7. 10/7 (1 & 2) | 10/9 (3 & 4): Student Presentations, Part II
 
 ----
 Textbooks
 ----
 
-There are no required textbooks. 
-
-The following excellent books are optional for reference:
-
-- [Machine Learning with Python Cookbook: Practical Solutions from Preprocessing to Deep Learning](https://www.amazon.com/Machine-Learning-Python-Cookbook-Preprocessing/dp/1491989386) by Chris Albon
-- [Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow](https://www.amazon.com/Hands-Machine-Learning-Scikit-Learn-TensorFlow/dp/1492032646) 2nd Edition by Aurélien Géron 
-- [Feature Engineering for Machine Learning: Principles and Techniques for Data Scientists](https://www.amazon.com/dp/B07BNX4MWC) by Alice Zheng and Amanda Casari
+None. There are no textbooks that are both high quality and up-to-date on the topics covered in class.
 
 ----
 Grading
 ----
 
-| Item               | Weight | Due Date & Time |
-|:-------------------|:------:|:------------:|
-| Professionalism    | 10%    | Throughout   |
-| Assignment 1       | 10%    | 10/27 at 9p  |
-| Assignment 2       | 10%    | 11/03 at 9p  |
-| Assignment 3       | 10%    | 11/10 at 9p  |
-| Assignment 4       | 10%    | 11/17 at 9p  |
-| Assignment 5       | 10%    | 11/24 at 9p  |
-| Final Project (FP) | 40%    | 12/11 at 6p <sup>†</sup>  |
-| __Total__          | __100%__ | |
-
-† In-class presentations will be on 12/03 or 12/06. The written report will be due on 12/11.
+| Item | Weight  | Due Date & Time |
+|:-------|:------:|:------:|
+| Professionalism             | 20% | Everyday               |
+| Assignment 1: LinkedIn      | 11% | 9/7   (Saturday) at 9p |
+| Assignment 2: Your Story    | 11% | 9/14  (Saturday) at 9p |
+| Assignment 3: Email         | 11% | 9/21  (Saturday) at 9p |
+| Assignment 4: Interviewing  | 11% | 9/28  (Saturday) at 9p |
+| Assignment 5: Meetup        | 11% | 10/5  (Saturday) at 9p |
+| Final Presentation (FP)     | 20% | Session 6 or 7         |
+| Assignment 6: FP Reflection |  5% | 10/12  (Saturday) at 9p|
+| __Total__      | __100%__ |
 
 Each item's contribution is capped its respective percentage. The total course percentage is capped at 100%.
 
@@ -184,6 +116,8 @@ Professionalism points are entirely at the instructor's discretion.
 
 Violations of Academic Integrity are unprofessional, thus you'll automatically lose all Professionalism points for any violations of Academic Integrity.
 
+Part of professionalism may include completing small ad hoc assignments, such as MSDS Student Info Survey and setting up online profiles for the tools MSDS program uses.
+
 I try to create an active learning environment in my classroom. Attendance is mandatory - you can't participate if you don't attend. It is the responsibility of the student to attend all classes. If you have to miss class, due to sickness, job interviewing, or other circumstances, please notify your instructor by Slack in advance. Supporting documents (e.g., doctor’s notes) may be asked for.
 
 Tardiness negatively impacts an active learning environment, thus will impact your professionalism grade.
@@ -196,20 +130,17 @@ This is a closed-computer classroom. Your phone and laptop must stay put away du
 
 This is your warning for off-topic computer use. Violations include (but not limited to): looking at the screen, typing, and using any type of computer for activities not directly to the current in-class activities. Every violation will negatively impact your total grade by losing professional points. The penalties scale exponentially - The first offense is will result in a 1% loss of total points, the second offense is 5% of total points, the third offense is 10%, the fourth offense is 15%, and the fifth offense is 20% of total points (i.e., the cap is 100% of your professional points). 
 
-### Assignment
-
-The assignments will be hands-on activities. They will require a combination of coding and writing. The coding sections will be using Python's scikit-learn, numpy, and pandas libraries to model data. The writing sections will focus on communication to technical and nontechnical audiences.
-
-### Final Project 
-
-In lieu of a Final Exam, there will be a Final Project. Details in Final Project Folder.
-
 Grading standards
 ----
 
 The MSDS program considers a grade of "A" to represent exceptional work with respect to both the instructor's expectations and peer student achievements. I consider an "A" grade to be above and beyond what most students achieve. A grade of "B" represents the expected outcome, what is called "competence" in a business setting. A "C" grade represents achievements lower than the instructor's expectations for competence in the subject. A grade of "F" represents little or no work in the course.
 
 I will "curve" the final numerical grades at the end of the course. The mapping from percentages to letter grades (e.g., [95, 100] is an A, [90,95) is an A-, etc.) will not be established until the end of the course. Roughly, the top 15% of students will receive grades of A or A-. Roughly, 60% of students will receive grades of B+, B, or B-. Roughly, 20% of students will receive grades of C+, C, or C-. Students can receive failing grades. 
+
+The Learning, Writing, and Speaking Centers 
+------
+
+The Learning, Writing, and Speaking Centers at USF provide individualized support to assist you in better understanding course material and to aid you on your path to success. Services are free and include one-on-one tutoring, group tutoring, and one-on-one Academic Skills Coaching appointments to discuss effective study strategies. The Learning Center supports over 80 courses each semester. The Writing Center helps students develop their writing skills in rhetoric, organization, style, and structure, through one-on-one interactive conferences. The Speaking Center helps students prepare for public speaking — including speeches, oral presentations, team presentations, and visual aid demonstrations. International students may also contact us to learn more about communicating with professors and general academic study skills. The Learning, Writing, and Speaking Centers are located on the Lower Level of Gleeson Library (G03). Please contact them at (415) 422-6713 for further assistance or visit: myusf.usfca.edu/lwsc
 
 Students with disabilities
 -----
