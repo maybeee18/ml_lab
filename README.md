@@ -1,5 +1,3 @@
-<span style="color:red"><center><h1>DRAFT</h1></center></span>
-
 <center><h2>University of San Francisco's Machine Learning Laboratory <br>  MSDS 699 Fall 2019</h2></center>
 
 <center><img src="https://imgs.xkcd.com/comics/machine_learning.png" style="width: 40%"/></center>
@@ -43,12 +41,13 @@ Learning Outcomes
 -----
 
 By the end of the course, you should be able to:     
+
 1. Apply fundamental machine learning models and methodology to solve real-world problems. 
-1. Write idiomatic Python code to model data. Primarily using the scikit-learn package. 
+1. Write idiomatic Python code to model data, primarily using the scikit-learn package. 
 1. Define common machine learning terms and identify applied examples.
 1. Explain common regression, classification and clustering algorithms.
 1. Recognize when to and _when not to_ apply machine learning algorithms.
-1. Build end-to-end machine learning models to an answer meaningful Data Science questions.
+1. Build end-to-end machine learning models to answer meaningful Data Science questions.
 
 -----
 Course Schedule and Topics (Tentative)
@@ -65,16 +64,14 @@ Format: Number. Date (Section) | Date (Section)
 
 1. 10/17 (2) | 10/22 (1)
     - Machine learning process
-    - Modeling fitting in scikit-learn 
     - Train-test split
-    - Regression models
-    - Regression metrics    
-
+    - Loss function and evaluation metrics
+    - Regression 
+    
 2. 10/24 (2) | 10/29 (1)
     - Bias and variance
     - Cross-validation 
-    - Classification models
-    - Classification metrics
+    - Classification
 
 3. 10/31 (2) | 11/05 (1)
     - Multi-class classification
@@ -109,7 +106,7 @@ Topics Not Covered
 - Anomaly Detection (not enough time to get strange 👽)
 - Recommender Systems (covered in MSDS 630 ⌛)
 - Reinforcement Learning (we don't have time to play games 👾)
-- Ethics (covered in Data Ethics course)
+- Ethics (covered in Data Ethics course ⌛)
 - Algorithms
     - Boosting
     - Neural Networks / Deep Learning
@@ -177,7 +174,7 @@ Tardiness negatively impacts an active learning environment, thus will impact yo
 
 You must show-up to each session prepared. 
 
-Each person is important to the dynamic of the class, and therefore students are required to participate in class activities. Expect to be "cold called". I call on students at random not to put you on the spot but to keep you engaged in the material at all times.
+Each person is important to the dynamic of the class, and therefore students are required to participate in-class activities. Expect to be "cold called". I call on students at random not to put you on the spot but to keep you engaged in the material at all times.
 
 This is a closed-computer classroom. Your phone and laptop must stay put away during the entire class, unless explicitly instructed by me that it is okay to use your laptop for a specific activity. I have observed that just the presence of phones and laptops negatively impacts the learning experience for everyone in the classroom. I expect you to be fully present and engaged in the classroom at all times. I _strongly_ suggest taking notes on paper. A tablet is acceptable for note-taking. A tablet should __not__ be used for any other purpose.
 
@@ -214,6 +211,12 @@ Academic Integrity
 -----
 
 USF upholds the standards of honesty and integrity from all members of the academic community. All students are expected to know and adhere to the University's [Honor Code](https://myusf.usfca.edu/academic-integrity/).
+
+You may not copy code from other current or previous students. All suspicious activity will be investigated and, if warranted, passed to the Dean of Sciences for action. Copying answers or code from other students or sources during a quiz, exam, or for a project is a violation of the university’s honor code and will be treated as such. Plagiarism consists of copying material from any source and passing off that material as your own original work. Plagiarism is plagiarism: it does not matter if the source being copied is on the Internet, from a book or textbook, or from quizzes or problem sets written up by other students. Giving code or showing code to another student is also considered a violation. You must also abide by the copyright laws of the United States.
+
+The golden rule: **You must never represent another person’s work as your own.** Credit to [Terence Parr](https://github.com/parrt/msds689).
+
+I generously post all my materials to a public GitHub repo. However, you should not post any solutions to GitHub (or anywhere else on the Internet). Publicly posting any solutions to any problems for this course will result in a failing grade for this course.
 
 If you ever have questions about what constitutes plagiarism, cheating, or academic dishonesty in my course, please feel free to ask me.
 
