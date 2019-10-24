@@ -8,7 +8,7 @@ See Syllabus & Canvas
 Instructions:
 -----
 
-The goal of this part of the assignment is to communicate your work to both nontechnical and technical audicences.
+The goal of this part of the assignment is to communicate your work to both nontechnical and technical audiences.
 
 Deliverables:
 -----
@@ -29,7 +29,7 @@ You are working with a Product Manager (PM) for pricing. The PM knows about the 
 4) (1 point) For the PM, write a one sentence summary of what you found.   
 5) (1 point) For the PM, write a one sentence suggestion for business implications.
 
-You also work with a Senior Data Scientist (DS). The DS knows little about the pricing domain but has all the revelavnt technical knowledge.
+You also work with a Senior Data Scientist (DS). The DS knows little about the pricing domain but has all the relevant technical knowledge.
 
 6) (1 point) For the DS, write a one sentence summary of what you found.   
 7) (1 point) For the DS, one sentence suggestion about future for modeling directions.  
