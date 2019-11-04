@@ -1,7 +1,7 @@
 Student Assignment Submission Instructions
 ------
 
-1. Rename notebook with your __login id appended to beginning__: `lab_1_regression.ipynb` -> `bspiering_lab_1_regression.ipynb`.
+1. Rename notebook with your __login id appended to beginning__: `1_assignment_regression.ipynb` -> `bspiering_1_assignment_regression.ipynb`.
 2. Delete
     ```python
     # YOUR CODE HERE
@@ -12,9 +12,9 @@ Student Assignment Submission Instructions
 
 Here are __invalid__ renaming examples:
 
-- Brian_Spiering_lab_1_functions.ipynb
-- Brian_Spiering.ipynb
-- bspiering.ipynb
+- `Brian_Spiering_1_assignment_regression.ipynb`
+- `Brian_Spiering.ipynb`
+- `bspiering.ipynb`
 
 If the file was not renamed in the right format, it would be regarded as no submission and graded as zero.
 
