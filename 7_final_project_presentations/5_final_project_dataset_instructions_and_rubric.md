@@ -1,13 +1,14 @@
 Final Project Dataset Instructions and Rubric
 ------
 
-Submit completed assignment on Canvas. 
+Each individual must submit completed assignment on Canvas. 
 
 See Canvas for due date. 
 
 Deliverables
 ------
 
+1. Names of each group member.
 1. Link to dataset.
 2. Number of observations.
 3. Number of raw features.
@@ -16,11 +17,10 @@ Deliverables
 Rubric
 -----
 
-10 points
+5 points
 
 - (1 point) Public
-- (1 point) Easily acquired. No webscraping.
-- (1 point) Single dataframe. Data can come from multiple sources but must be easily joined into a single dataframe.
 - (1 point) Number of observations is greater than 200.
 - (1 point) Number of raw features is greater than 9.
-- (5 points) Primarily tabular data. No images. Minimal text.
+- (1 point) Single dataframe.
+- (1 points Data meets standard. Primarily tabular. No images. Minimal text.
