@@ -1,7 +1,7 @@
 Final Project Milestones
 ------
 
-- [ ] Dataset and research question approved by instructor [11-07-19] __deliverable__.
+- [ ] Dataset and research question approved by instructor [11-12-19] __deliverable__.
 - [ ] Acquire the data. 
 - [ ] Procrastinate for a couple of days 😎. 
 - [ ] Munge the data. 
