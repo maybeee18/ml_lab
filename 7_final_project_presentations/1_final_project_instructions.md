@@ -66,3 +66,26 @@ Hints
     - Do something groundbreaking (seriously). Either ground-breaking for the field or for the class.
     - Fit models and use methodologies from outside class materials.
     - Error bars!!!
+
+----
+FAQs
+-----
+
+1. Can I use \_\_\_\_\_\_\_\_ software package?
+
+    The goal of this project to review the course materials, this course has been in Python and using scikit-learn package. You should only use Python. The majority of your code should be in scikit-learn.
+
+    There should be __no__ Spark, TensorFlow, or PyTorch code anywhere. 
+
+    Do __not__ reimplement any algorithm or function. If possible, call existing code. If possible, call scikit-learn code. Only use Pandas, NumPy, or SciPy if scikit-learn does not have the functionality you require.
+
+    Visualizations are important for understanding your system and communicating to your audience. Visualizations should be clear; They do not need to be beautiful. You can use any Python visualization package, suggestions are Matplotlib and Seaborn.
+
+    You can use any third party Python packages. Try to use packages that are related to scikit-learn, see list [here](https://scikit-learn.org/stable/related_projects.html).
+
+
+
+
+
+
+
