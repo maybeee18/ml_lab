@@ -1,4 +1,4 @@
-Machine Learning Final Project
+    Machine Learning Final Project
 ------
 
 Signup: [Google Sheet](https://docs.google.com/spreadsheets/d/1BU4AssSIvDE4IYBcCWG9bEbyRu0Ql90MqO962MudS-E/edit#gid=0)   
@@ -84,7 +84,13 @@ FAQs
     You can use any third party Python packages. Try to use packages that are related to scikit-learn, see list [here](https://scikit-learn.org/stable/related_projects.html).
 
 
+1. For the Final Project, how will model performance on my chosen evaluation metric effect my grade?
 
+    Absolute model performance on evaluation metrics will have __no__ impact the grade. There are many different datasets, each one will perform differently. This is different from the assignments where absolute model performance on evaluation metrics was important because everyone use the same datasets.
+
+    What will impact your team grade is relative model performance on the evaluation metrics. I except your team try different combinations of features, algorithms, and hyperparameters. You should find a combination that does better as measured by evaluation metrics.
+
+    Selecting the evaluation metric will impact your team grade. You should select metric(s) that are relevant for the research question, not something that you can easily maximize.
 
 
 
