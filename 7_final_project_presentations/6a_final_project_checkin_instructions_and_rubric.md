@@ -22,8 +22,8 @@ Rubric
 
 5 points
 
-- (1 point) All group members are listed.
+- (1 point) Group name and all group members are listed.
 - (1 point) Data loaded in a form that is amenable to machine learning.
 - (1 point) A scikit-learn's Estimator `.fit` method ran.
 - (1 point) A scikit-learn's Estimator `.predict` method ran.
-- (1 point) A scikit-learn's metrics `.score` method ran.
+- (1 point) A score value from an appropriate [scikit-learn's metric](https://scikit-learn.org/stable/modules/classes.html#module-sklearn.metrics). In other words, you need to pick an appropriate evaluation metric (or even better, define a custom metric) for your problem. 
