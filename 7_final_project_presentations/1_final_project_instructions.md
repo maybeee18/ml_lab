@@ -2,7 +2,6 @@
 ------
 
 Signup: [Google Sheet](https://docs.google.com/spreadsheets/d/1BU4AssSIvDE4IYBcCWG9bEbyRu0Ql90MqO962MudS-E/edit#gid=0)   
-
 ### Learning Outcomes:
 
 - Formulate a meaningful and answerable Data Science research question.
@@ -54,7 +53,15 @@ Make your own groups of 3 students (a single group with 4 students is okay) with
     There are two deliverables:
 
     1. An in-class presentation either on 12-03-19 (section 1) or 12-06-19 (section 2). The presentation will be 6 minutes with 1 minute of questions and (hopefully) answers.
-    2. Jupyter Notebooks in a public GitHub repository documenting your work are due on 12-11-19 by 6pm.
+    2. A GitHub repository is due on 12-11-19 by 6pm.
+
+    The GitHub repo should be public with a single Jupyter Notebook notebook. 
+
+    I except that single Jupyter Notebook to be reproducible (i.e., it will run on other people's computers). Thus, I suggest creating a conda enviroment for your project to manage dependencies.
+
+    Regarding data managment, that Jupyter Notebook should read in a single dataframe. If that single dataframe is small, it can committed to the GitHub repo. If that single dataframe is too large for GitHub, store the data on a public file sharing service (e.g., AWS S3) and code within the Jupyter Notebook should fetch it.
+
+    All other work should somewhere else and will not be graded. 
 
 ----
 Hints
