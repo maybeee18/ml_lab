@@ -99,6 +99,15 @@ FAQs
 
     Selecting the evaluation metric will impact your team grade. You should select metric(s) that are relevant for the research question, not something that you can easily maximize.
 
+1. Can I use some random piece of code I found on the Internet in my Final Project?
 
+    Yes.
 
+    Any ideas or code that are not your own have to be documented. The only exceptions are ideas or code from this course since I know where they come from. 
 
+    There should only be a handful of citations. The expectation is that you'll do most of the thinking and code writing on your own. If there is an excessive amount of work that is not your own (even if properly cited), you'll receive a reduced score. The Final Project's goal is to practice the ideas and code from this course on another dataset. See examples from last year.
+
+    Anything you to fail to cite will be considered plagiarism. Plagiarism will result in a zero score on this assignment and other plagiarism related penalties.
+
+    Any concerns should be run by me before you turn the project in.
+    
