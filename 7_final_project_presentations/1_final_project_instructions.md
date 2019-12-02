@@ -52,16 +52,16 @@ Make your own groups of 3 students (a single group with 4 students is okay) with
 
     There are two deliverables:
 
-    1. An in-class presentation either on 12-03-19 (section 1) or 12-06-19 (section 2). The presentation will be 6 minutes with 1 minute of questions and (hopefully) answers.
+    1. An in-class presentation either on 12-03-19 (section 1) or 12-06-19 (section 2). The presentation will be 6 minutes. Followed by an additional 1 minute of questions and (hopefully) answers.  
     2. A GitHub repository is due on 12-11-19 by 6pm.
 
     The GitHub repo should be public with a single Jupyter Notebook notebook. 
 
-    I except that single Jupyter Notebook to be reproducible (i.e., it will run on other people's computers). Thus, I suggest creating a conda enviroment for your project to manage dependencies.
+    I except that single Jupyter Notebook to be reproducible (i.e., it will run on other people's computers). Thus, I suggest creating a conda environment for your project to manage dependencies.
 
-    Regarding data managment, that Jupyter Notebook should read in a single dataframe. If that single dataframe is small, it can committed to the GitHub repo. If that single dataframe is too large for GitHub, store the data on a public file sharing service (e.g., AWS S3) and code within the Jupyter Notebook should fetch it.
+    Regarding data management, that Jupyter Notebook should read in a single dataframe. If that single dataframe is small, it can committed to the GitHub repo. If that single dataframe is too large for GitHub, store the data on a public file sharing service (e.g., AWS S3) and code within the Jupyter Notebook should fetch it.
 
-    All other work should somewhere else and will not be graded. 
+    All other work should be somewhere else and will not be graded. 
 
 ----
 Hints
@@ -111,3 +111,15 @@ FAQs
 
     Any concerns should be run by me before you turn the project in.
     
+1. What do you mean by visualization?
+
+    I think visualizations are important at every stage of data science. Visualizations are especially under utilized in the interpretation of machine learning models. I would like to see at least one figure that tries to understand a trained model.
+
+    This project is about the entire machine learning process. EDA is vital but should only be a brief section. You should not present a complete coverage of what your team did for EDA, just the highlights that the tell the story of your model. 
+
+    Here are examples to get you going:  
+
+    - https://explained.ai/decision-tree-viz/  
+    - https://github.com/parrt/random-forest-importances  
+    - https://zhiyzuo.github.io/Python-Plot-Regression-Coefficient/  
+    - https://zhiyzuo.github.io/Python-Plot-Regression-Coefficient/  
