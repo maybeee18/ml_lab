@@ -38,6 +38,7 @@ Group Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
     - Missing comments for non-obvious code
     - User defined functions and classes without docstrings
     - No clear `README.md`
+    - Unnecceasery code
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Code Functionality (10 points)
     - Code is not easily reproducible

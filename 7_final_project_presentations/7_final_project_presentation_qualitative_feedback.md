@@ -1,4 +1,4 @@
-<center>Final Project Qualitative Assessment</center>
+<center><h2>Final Project Qualitative Feedback</h2></center>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Group Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 <br>
@@ -9,6 +9,10 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Things done well:
 
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -38,15 +42,7 @@
 <br>
 <br>
 <br>
+<br>
+<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;General Observations:
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>

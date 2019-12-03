@@ -9,10 +9,10 @@ Deliverables
 ------
 
 1. Names of each group member.
-2. Link to dataset.
-3. Number of observations.
-4. Number of raw features.
-5. Sample row of dataframe with column names.
+1. Link to dataset.
+2. Number of observations.
+3. Number of raw features.
+4. Sample row of dataframe with column names.
 
 Rubric
 -----
