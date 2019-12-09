@@ -25,8 +25,8 @@ Group Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
     - Did not visually inspect model results
     - Did not evaluate multiple evaluation metrics
     - Did not define appropriate North Star metric
-    - Did not find single best model
-    - Did not interpret single best model  
+    - Did not find the single best model
+    - Did not interpret the single best model  
     - No clear summary
     - No clear takeaways
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
@@ -34,11 +34,11 @@ Group Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
     - Code is hard to follow
     - Inconsistent style
     - Non-Pythonic code style
-    - Not descriptive naming
+    - Non-descriptive naming
     - Missing comments for non-obvious code
     - User defined functions and classes without docstrings
-    - No clear `README.md`
-    - Unnecceasery code
+    - `README.md` is missing or does not provide overview of project
+    - Unnecessary code / Code commented out
     - Other: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 - Code Functionality (10 points)
     - Code is not easily reproducible
